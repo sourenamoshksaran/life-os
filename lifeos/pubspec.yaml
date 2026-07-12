@@ -1,0 +1,61 @@
+name: lifeos
+description: "LifeOS (Project NOVA) — offline-first personal life operating system."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+  flutter: ">=3.22.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State management (locked)
+  flutter_riverpod: ^2.5.1
+
+  # Navigation (locked)
+  go_router: ^14.2.0
+
+  # Local database (locked)
+  isar: ^3.1.0+1
+  isar_flutter_libs: ^3.1.0+1
+  path_provider: ^2.1.4
+
+  # Lightweight settings/cache (locked)
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # Serialization (locked)
+  json_annotation: ^4.9.0
+
+  # Notifications (locked)
+  flutter_local_notifications: ^17.2.2
+
+  # Charts (locked)
+  fl_chart: ^0.68.0
+
+  # Motion (locked)
+  flutter_animate: ^4.5.0
+
+  # Icons (locked — see 07_Design_System.md)
+  phosphor_flutter: ^2.0.1
+
+  # IDs
+  uuid: ^4.4.2
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  isar_generator: ^3.1.0+1
+  build_runner: ^2.4.11
+  json_serializable: ^6.8.0
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true # enables gen-l10n from l10n.yaml (docs/07_Design_System.md Localization Format)

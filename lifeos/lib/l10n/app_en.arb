@@ -1,0 +1,8 @@
+{
+  "@@locale": "en",
+  "appTitle": "LifeOS",
+  "tasksTitle": "Tasks",
+  "startSession": "Start",
+  "finishSession": "Finish",
+  "noTasksYet": "No tasks yet — tap + to add one."
+}
