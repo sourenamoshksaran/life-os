@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Matches lib/theme/tokens/colors.dart LifeOSColors.background — the
+         native splash background should match the Flutter app's own
+         background so there's no flash-of-wrong-color on launch. -->
+    <color name="lifeos_background">#FF0E0E11</color>
+</resources>

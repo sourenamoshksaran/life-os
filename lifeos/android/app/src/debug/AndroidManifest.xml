@@ -1,0 +1,8 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Debug-build-only: required for the Dart VM service / hot reload
+         connection. Never present in release builds — LifeOS remains
+         100% offline in production per CLAUDE.md §13 Offline First
+         Rules; this permission does not ship in `flutter build apk
+         --release`. -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+</manifest>

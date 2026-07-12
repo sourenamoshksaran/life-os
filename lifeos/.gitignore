@@ -1,0 +1,25 @@
+# Dart / Flutter
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+*.g.dart
+*.freezed.dart
+
+# Isar / build_runner outputs are excluded above via *.g.dart — remove
+# that line first if you intend to commit generated code instead of
+# regenerating it via `flutter pub run build_runner build` in CI.
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# macOS
+.DS_Store
+
+# Coverage
+coverage/

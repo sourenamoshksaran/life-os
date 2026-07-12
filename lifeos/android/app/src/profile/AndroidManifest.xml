@@ -1,0 +1,6 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Profile-build-only: required for Flutter DevTools/profiling
+         connection. Not present in release builds — see debug manifest
+         for the same note. -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+</manifest>
